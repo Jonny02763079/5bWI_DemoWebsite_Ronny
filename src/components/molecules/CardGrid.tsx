@@ -1,4 +1,5 @@
 import Card from '../atoms/Card';
+import styles from './CardGrid.module.css'
 
 export default function CardGrid() {
 
@@ -50,9 +51,12 @@ export default function CardGrid() {
 
     return (
         <div>
-            {arrayOfPeople.map(element => (
-                <Card key={element.name} name={element.name} description={element.description} url={url} />
-            ))}
+            <h1>HTL Dornbirn 5aWP</h1>
+            <div className={styles['cardsContainer']}>
+                {arrayOfPeople.map(element => (
+                    <Card key={element.name} name={element.name} description={element.description} url={url} />
+                ))}
+            </div>
         </div>
     )
 }

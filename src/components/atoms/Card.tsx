@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import styles from './Card.module.css'
 
 type Props = {
     name: string;
@@ -21,14 +22,14 @@ export default function Card({ name, description, url }: Props) {
     }, [url]);
 
     return (
-        <div>
-            <div>
+        <div className={styles["mainContainer"]}>
+            <div className={styles['imageContainer']}>
                 <img src={imageSrc} alt={name} />
             </div>
-            <div>
+            <div className={styles['nameContainer']}>
                 <h1>{name}</h1>
             </div>
-            <div>
+            <div className={styles['descriptionContainer']}>
                 {description}
             </div>
         </div>

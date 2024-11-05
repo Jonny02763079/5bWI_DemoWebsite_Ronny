@@ -1,0 +1,10 @@
+.cardsContainer {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 16px;
+    padding: 16px;
+}
+
+h1 {
+    color: white;
+}

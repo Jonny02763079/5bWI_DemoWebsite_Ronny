@@ -1,0 +1,29 @@
+.mainContainer {
+    display: grid;
+    grid-template-rows: auto auto 1fr;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    background-color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.imageContainer img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.nameContainer h1 {
+    font-size: 1.25rem;
+    margin: 8px 0;
+}
+
+.descriptionContainer {
+    font-size: 1rem;
+    color: #555;
+}
+
+body {
+    background-color: black;
+}
