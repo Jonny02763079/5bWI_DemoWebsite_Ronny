@@ -51,7 +51,7 @@ export default function CardGrid() {
 
     return (
         <div>
-            <h1>HTL Dornbirn 5aWP</h1>
+            <h1 className={styles['headLine']}>HTL Dornbirn 5aWP</h1>
             <div className={styles['cardsContainer']}>
                 {arrayOfPeople.map(element => (
                     <Card key={element.name} name={element.name} description={element.description} url={url} />
