@@ -1,11 +1,12 @@
 import './App.css'
+import CardGrid from './components/molecules/CardGrid'
 
 function App() {
 
   return (
     <>
       <div>
-        Hello world
+        <CardGrid></CardGrid>
       </div>
 
     </>
