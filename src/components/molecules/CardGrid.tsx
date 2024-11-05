@@ -1,4 +1,3 @@
-import React from 'react'
 import Card from '../atoms/Card';
 
 export default function CardGrid() {
